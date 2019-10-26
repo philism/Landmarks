@@ -1,8 +1,8 @@
 //
 //  ContentView.swift
-//  Landmarks
+//  LandmarksWatch WatchKit Extension
 //
-//  Created by Philip Smith on 10/18/19.
+//  Created by Philip Smith on 10/25/19.
 //  Copyright © 2019 Philip Smith. All rights reserved.
 //
 
