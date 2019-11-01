@@ -57,10 +57,10 @@
 		46B7C7E6235A38DA00FD1CF8 /* LandmarksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B7C7E5235A38DA00FD1CF8 /* LandmarksUITests.swift */; };
 		46C7F0C82364E017008DB140 /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C7F0C72364E017008DB140 /* Badge.swift */; };
 		46C7F0CA2364E07D008DB140 /* BadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C7F0C92364E07D008DB140 /* BadgeSymbol.swift */; };
+		46DBC6DE236CB1E300AE0ECA /* turtlerock_feature.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 46DBC6DD236CB1E300AE0ECA /* turtlerock_feature.jpg */; };
+		46DBC6E0236CB1F800AE0ECA /* stmarylake_feature.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 46DBC6DF236CB1F800AE0ECA /* stmarylake_feature.jpg */; };
+		46DBC6E2236CB20B00AE0ECA /* charleyrivers_feature.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 46DBC6E1236CB20B00AE0ECA /* charleyrivers_feature.jpg */; };
 		46F2FD0B236A1A95006E6E38 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F2FD0A236A1A95006E6E38 /* PageControl.swift */; };
-		46F2FD10236A2336006E6E38 /* charleyrivers_feature.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 46F2FD0F236A2335006E6E38 /* charleyrivers_feature.jpg */; };
-		46F2FD12236A234F006E6E38 /* stmarylake_feature.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 46F2FD11236A234F006E6E38 /* stmarylake_feature.jpg */; };
-		46F2FD14236A2367006E6E38 /* turtlerock_feature.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 46F2FD13236A2367006E6E38 /* turtlerock_feature.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -137,10 +137,10 @@
 		46B7C7E7235A38DA00FD1CF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		46C7F0C72364E017008DB140 /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
 		46C7F0C92364E07D008DB140 /* BadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeSymbol.swift; sourceTree = "<group>"; };
+		46DBC6DD236CB1E300AE0ECA /* turtlerock_feature.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = turtlerock_feature.jpg; sourceTree = "<group>"; };
+		46DBC6DF236CB1F800AE0ECA /* stmarylake_feature.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stmarylake_feature.jpg; sourceTree = "<group>"; };
+		46DBC6E1236CB20B00AE0ECA /* charleyrivers_feature.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = charleyrivers_feature.jpg; sourceTree = "<group>"; };
 		46F2FD0A236A1A95006E6E38 /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
-		46F2FD0F236A2335006E6E38 /* charleyrivers_feature.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = charleyrivers_feature.jpg; path = "../../../../../Documents/SwiftUI Tutorials/Framework Integration/InterfacingWithUIKit/Complete/Landmarks/Landmarks/Resources/charleyrivers_feature.jpg"; sourceTree = "<group>"; };
-		46F2FD11236A234F006E6E38 /* stmarylake_feature.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = stmarylake_feature.jpg; path = "../../../../../Documents/SwiftUI Tutorials/Framework Integration/InterfacingWithUIKit/Complete/Landmarks/Landmarks/Resources/stmarylake_feature.jpg"; sourceTree = "<group>"; };
-		46F2FD13236A2367006E6E38 /* turtlerock_feature.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = turtlerock_feature.jpg; path = "../../../../../Documents/SwiftUI Tutorials/Framework Integration/InterfacingWithUIKit/Complete/Landmarks/Landmarks/Resources/turtlerock_feature.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -220,12 +220,12 @@
 				46A483152363A45800410B93 /* umbagog.jpg */,
 				46A483162363A45800410B93 /* landmarkData.json */,
 				46A483172363A45800410B93 /* chincoteague.jpg */,
-				46F2FD0F236A2335006E6E38 /* charleyrivers_feature.jpg */,
-				46F2FD11236A234F006E6E38 /* stmarylake_feature.jpg */,
+				46DBC6E1236CB20B00AE0ECA /* charleyrivers_feature.jpg */,
 				46A483192363A45800410B93 /* stmarylake.jpg */,
 				46A4831A2363A45800410B93 /* chilkoottrail.jpg */,
 				46A4831B2363A45800410B93 /* rainbowlake.jpg */,
-				46F2FD13236A2367006E6E38 /* turtlerock_feature.jpg */,
+				46DBC6DD236CB1E300AE0ECA /* turtlerock_feature.jpg */,
+				46DBC6DF236CB1F800AE0ECA /* stmarylake_feature.jpg */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -440,20 +440,20 @@
 				46A4831C2363A45800410B93 /* turtlerock.jpg in Resources */,
 				4685B9FA2364E878000A49A5 /* hikeData.json in Resources */,
 				46B7C7D0235A38DA00FD1CF8 /* LaunchScreen.storyboard in Resources */,
-				46F2FD10236A2336006E6E38 /* charleyrivers_feature.jpg in Resources */,
+				46DBC6E0236CB1F800AE0ECA /* stmarylake_feature.jpg in Resources */,
 				46A483222363A45800410B93 /* umbagog.jpg in Resources */,
 				46A483262363A45800410B93 /* stmarylake.jpg in Resources */,
 				4631B75E2364C8510058A8D7 /* charleyrivers.jpg in Resources */,
 				46A483242363A45800410B93 /* chincoteague.jpg in Resources */,
-				46F2FD12236A234F006E6E38 /* stmarylake_feature.jpg in Resources */,
 				46B7C7CD235A38DA00FD1CF8 /* Preview Assets.xcassets in Resources */,
+				46DBC6E2236CB20B00AE0ECA /* charleyrivers_feature.jpg in Resources */,
 				46A4831E2363A45800410B93 /* icybay.jpg in Resources */,
 				46A483212363A45800410B93 /* twinlake.jpg in Resources */,
 				46A483202363A45800410B93 /* hiddenlake.jpg in Resources */,
 				46B7C7CA235A38DA00FD1CF8 /* Assets.xcassets in Resources */,
 				46A483282363A45800410B93 /* rainbowlake.jpg in Resources */,
 				46A483272363A45800410B93 /* chilkoottrail.jpg in Resources */,
-				46F2FD14236A2367006E6E38 /* turtlerock_feature.jpg in Resources */,
+				46DBC6DE236CB1E300AE0ECA /* turtlerock_feature.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
